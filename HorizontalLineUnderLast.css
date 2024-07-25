@@ -1,0 +1,20 @@
+/* Add a horizontal line under the last file in a folder at any tree level */
+.nav-folder-children > .nav-file:last-child {
+    border-bottom: 1px solid #ccc; /* Line color and thickness */
+    padding-bottom: 5px; /* Space below the line */
+    margin-bottom: 5px; /* Space above the line */
+}
+
+/* Add a horizontal line under the last subfolder in a folder at any tree level */
+.nav-folder-children > .nav-folder:last-child {
+    border-bottom: 1px solid #ccc; /* Line color and thickness */
+    padding-bottom: 5px; /* Space below the line */
+    margin-bottom: 5px; /* Space above the line */
+}
+
+/* Add a horizontal line under the last folder if there are no notes in the same hierarchy level */
+.nav-folder-children > .nav-folder:last-child:only-child {
+    border-bottom: 1px solid #ccc; /* Line color and thickness */
+    padding-bottom: 5px; /* Space below the line */
+    margin-bottom: 5px; /* Space above the line */
+}
