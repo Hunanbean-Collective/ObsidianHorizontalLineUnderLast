@@ -4,3 +4,5 @@ a CSS Snippet for Obsidian MD that adds horizontal lines under the last Note, or
 
 Place in the .obsidian\snippets folderof your Vault.
 Activate.
+
+credit to CGPT4o
